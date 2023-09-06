@@ -6,8 +6,6 @@ use \Rclemon93\DigitalCep\Search;
 
 $busca = new Search();
 
-
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
