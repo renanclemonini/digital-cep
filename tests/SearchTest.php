@@ -5,18 +5,18 @@ use Rclemon93\DigitalCep\Search;
 
 class SearchTest extends TestCase
 {
-    /*
-    * @dataProvider dadosTeste
-    */ 
+    /**
+     * @dataProvider dadosTeste
+     */
     public function testGetAddressFromZipCodeDefaultUsage(string $zipCode, array $esperado)
     {
-        $resultado = new Search;
+        $resultado = new Search();
         $resultado = $resultado->getAddressFromZipCode($zipCode);
 
         $this->assertEquals($esperado, $resultado);
     }
 
-    public function dadosTeste() 
+    public function dadosTeste()
     {
         return [
             "Endereço Praça da Sé" => [
@@ -28,10 +28,10 @@ class SearchTest extends TestCase
                         "bairro" => "Sé",
                         "localidade" => "São Paulo",
                         "uf" => "SP",
-                        "unidade" => "",
                         "ibge" => "3550308",
                         "gia" => "1004",
                         "ddd" => "11",
+                        "siafi" => "7107"
                     ]
                 ],
             "Endereço Qualquer" => [
@@ -50,6 +50,5 @@ class SearchTest extends TestCase
                     ]
                 ]
         ];
-    } 
+    }
 }
-?>

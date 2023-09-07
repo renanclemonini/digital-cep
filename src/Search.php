@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Rclemon93\DigitalCep;
 
@@ -10,11 +10,15 @@ class Search
     {
         $zipCode = preg_replace('/[^0-9]/im', '', $zipCode);
 
-        $get = file_get_contents($this->url . $zipCode . "/json/");
+        $get = $this->getFromServer($zipCode);
 
         return (array) json_decode($get);
     }
+
+    private function getFromServer($zipCode)
+    {
+        $get = file_get_contents($this->url . $zipCode . "/json/");
+
+        return $get;
+    }
 }
-
-
-?>
