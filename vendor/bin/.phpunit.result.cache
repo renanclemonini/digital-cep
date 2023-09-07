@@ -1,1 +1,1 @@
-{"version":1,"defects":{"SearchTest::testGetAddressFromZipCodeDefaultUsage":7},"times":{"SearchTest::testGetAddressFromZipCodeDefaultUsage":0.416}}
+{"version":1,"defects":{"SearchTest::testGetAddressFromZipCodeDefaultUsage":8},"times":{"SearchTest::testGetAddressFromZipCodeDefaultUsage":0.021}}

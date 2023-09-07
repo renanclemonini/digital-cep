@@ -3,7 +3,7 @@
         'name' => 'rclemon93/digital-cep',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '87d7c86d42b04a23932334e0eb1c3e9e94cace30',
+        'reference' => '78b7cf408a792000e76d40c8ae1837741c396f88',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -103,7 +103,7 @@
         'rclemon93/digital-cep' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '87d7c86d42b04a23932334e0eb1c3e9e94cace30',
+            'reference' => '78b7cf408a792000e76d40c8ae1837741c396f88',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
